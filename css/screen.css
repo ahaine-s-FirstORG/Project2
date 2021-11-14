@@ -48,4 +48,9 @@ input[type="checkbox"] + label {
 input[type="checkbox"] {
   width: 0.75em;
   height: 0.75em;
-  }
+}
+#text {
+   display: none;
+   font-size: 0.9em; /* 14.4px */
+   color: #04508F;
+}
