@@ -13,7 +13,7 @@ html{
 /*code for the sign up page*/
 #form-head {
    text-align: center;
-   color: #5a5a5a;
+   color: #0C69B7;
    font-size: 1.777em; /* 28.43px */
    line-height: 1.5em;
 }
@@ -52,7 +52,7 @@ input[type="checkbox"] {
 #text {
    display: none;
    font-size: 0.9em; /* 14.4px */
-   color: #0C69B7;
+   color: #3A6629;
 }
 #news-verification {
    margin-top: 0;
@@ -90,7 +90,7 @@ input[type="checkbox"] {
   }
 form {
     width: 40%;
-    margin: 2em 4em 0.5em 40%;
+    margin: 2em 20% 0.5em 30%;
   }
 #submit {
     width: 30%;
