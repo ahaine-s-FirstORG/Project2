@@ -1,0 +1,10 @@
+/*
+ modular scale : 1.333 Perfect Fourth
+ https://www.modularscale.com/?16&px&1.333
+*/
+html{
+  font-family: 'Lora', Calibre, serif;
+  font-size: 16px; /* base */
+  line-height: 1.182em; 
+  text-rendering: optimizeLegibility;
+}
