@@ -22,3 +22,17 @@ html{
    font-size: 1.333em; /* 21.328px */
    line-height: 1.25em;
 }
+label {
+  display: block;
+}
+.label-input{
+   margin-top: 1em;
+}
+form{
+   background-color: white;
+   margin: 2em 25px 2em 25px;
+   padding: 1em 1em 0.5em 1em;
+   border: solid;
+   border-width: 0.05em;
+   border-color: #5a5a5a;
+}
