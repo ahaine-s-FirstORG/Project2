@@ -10,7 +10,7 @@ html{
   background-color: rgb(248,248,255);
 }
 
-/*code for the sign up form*/
+/*code for the sign up page*/
 #form-head {
    text-align: center;
    color: #5a5a5a;
@@ -52,8 +52,22 @@ input[type="checkbox"] {
 #text {
    display: none;
    font-size: 0.9em; /* 14.4px */
-   color: #04508F;
+   color: #0C69B7;
 }
 #news-verification {
    margin-top: 0;
-} 
+}
+#input-submit {
+  margin-top: 0.75em;
+  text-align: center;
+}
+#submit {
+  background-color: #0C69B7;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  width: 60%;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  font-size: 1em; /* 16px */
+}
