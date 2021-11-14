@@ -11,6 +11,11 @@ html{
 }
 
 /*code for the sign up page*/
+#sign-form{
+  background-image: url(../img/earth.jpg);
+
+}
+
 #form-head {
    text-align: center;
    color: #0C69B7;
@@ -29,10 +34,9 @@ label {
    margin-top: 1em;
 }
 form{
-   background-color: white;
-   margin: 2em 25px 2em 25px;
+   background-color: rgba(255,255,255,0.5);
    padding: 1em 1em 0.5em 1em;
-   border: solid;
+   border: none;
    border-width: 0.05em;
    border-color: #5a5a5a;
 }
@@ -90,7 +94,7 @@ input[type="checkbox"] {
   }
 form {
     width: 40%;
-    margin: 2em 20% 0.5em 30%;
+    margin: 0em 20% 0em 30%;
   }
 #submit {
     width: 30%;
