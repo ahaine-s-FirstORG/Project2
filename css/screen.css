@@ -88,4 +88,11 @@ input[type="checkbox"] {
     width:  60%;
     margin-left: 20%;
   }
+form {
+    width: 40%;
+    margin: 2em 4em 0.5em 40%;
+  }
+#submit {
+    width: 30%;
+  }  
 }
