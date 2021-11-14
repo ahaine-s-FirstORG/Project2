@@ -71,3 +71,13 @@ input[type="checkbox"] {
   padding-bottom: 0.25em;
   font-size: 1em; /* 16px */
 }
+/*end of the code for the sign up page*/
+
+/*Tablet screen*/
+@media screen and (min-width: 768px){
+  /* changes for sign up page */
+  form {
+    width: 60%;
+    margin-left: 18%;
+  }
+}
