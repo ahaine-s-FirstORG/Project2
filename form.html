@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html id="sign-form" lang="en" class="nojs">
+<head>
+  <meta charset="utf-8" />
+  <title>Sign Up</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" media="screen" href="css/reset.css" />
+  <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <script src="js/script.js" async></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Mochiy+Pop+P+One&family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div>
+    <header>
+	  <p>The International Society for Universal Dialogue</p>
+	</header>
+  </div>
+  <div id="navbar1">
+    <div id="navbar1-container" class="container">
+      <nav>
+	    <ul>
+	      <li><a href="index.html" title="home">Home</a></li>
+	      <li><a href="events.html" title="events">Events</a></li>
+	      <li id="underline"><a href="form.html" title="form">ISUD Sign-up</a></li>
+	    </ul>
+      </nav>
+	</div>
+  </div>
+  <form action="null" method="get" autocomplete="on">
+    <div id="form-head">
+      <h2>Create an ISUD account</h2>
+    </div>
+    <div id="form-description">
+      <p>Promote world peace, human rights, dialogical interrelations of diverse cultures, and preservation of the world ecology.</p>
+    </div>
+    <div class="label-input">
+      <label for="username">Username</label>
+      <input id="username" type="text" name="username-field" placeholder="Username">
+    </div>
+    <div class="label-input" id="input-email">
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email-field" placeholder="ISUD@iit.edu" pattern="^.+@.+$">
+    </div>
+    <div class="label-input">
+      <label for="pass">Password (7 characters minimum)</label>
+      <input type="password" name="password" id="pass" minlength="7" required>
+    </div>
+    <div class="label-input">
+      <input type="checkbox" id="news-verification" name="news-verification" value="18">
+      <label for="news-verification">Add me to the news list</label>
+    </div>
+    <div class="label-input">
+      <p id="text">Your email was added to the news list!</p>
+    </div>  
+    <div id="input-submit">
+      <input type="submit" id="submit" value="Join Community">
+    </div> 
+  </form>
+</body>  
