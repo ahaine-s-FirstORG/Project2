@@ -55,10 +55,10 @@ input[type="checkbox"] {
   height: 0.75em;
 }
 #text {
-   display: none;
-   font-size: 0.9em; /* 14.4px */
-   color: #3A6629;
-   text-align: center;
+  display: none;
+  font-size: 0.9em; /* 14.4px */
+  color: #3A6629;
+  text-align: center;
 }
 #news-verification {
    margin-top: 0;
@@ -90,9 +90,11 @@ input[type="checkbox"] {
     width: 60%;
     margin-left: 18%;
   }
+  /* end of changes for sign up page */
 }  
 /*Desktop Screen*/  
 @media screen and (min-width: 992px){
+  /* changes for sign up page */
   .label-input {
     display: block;
     width:  60%;
@@ -108,5 +110,6 @@ input[type="checkbox"] {
   }
   #submit {
     width: 30%;
-  }  
+  }
+  /*end of the code for the sign up page*/  
 }
