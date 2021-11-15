@@ -1,3 +1,4 @@
+/*code for the sign up page*/
 document.getElementById("news-verification").onclick = function() {
     myFunction();
 }
@@ -10,3 +11,4 @@ function myFunction() {
      text.style.display = "none";
   }
 }
+/* end of code for the sign up page*/
