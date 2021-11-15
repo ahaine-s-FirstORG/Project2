@@ -115,3 +115,40 @@ input[type="checkbox"] {
   }
   /*end of the code for the sign up page*/  
 }
+/*code for navigation bar*/
+#navbar1{
+  background-color: #47739E;
+  overflow: hidden;
+}
+#navbar1-container{
+  position: relative;
+  float: left;
+  width: 100%;
+}
+#navbar1 ul {
+  position: relative;
+  float: left;
+  left: 50%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#navbar1 ul li {
+  display: block;
+  position: relative;
+  float: left;
+  right: 50%;
+}
+#navbar1 ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #F8FBFF
+}
+#navbar1 ul li a:hover {
+  background-color: #0E467D;
+  
+}
+#navbar1 #underline {
+  text-decoration: underline;
+}
