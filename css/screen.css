@@ -58,6 +58,7 @@ input[type="checkbox"] {
    display: none;
    font-size: 0.9em; /* 14.4px */
    color: #3A6629;
+   text-align: center;
 }
 #news-verification {
    margin-top: 0;
