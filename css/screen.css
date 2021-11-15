@@ -12,7 +12,7 @@ html{
 
 /*code for the sign up page*/
 #sign-form{
-  background-image: url(../img/earth.jpg);
+  background-image: url(../img/hands.jpg);
 
 }
 
@@ -93,11 +93,15 @@ input[type="checkbox"] {
     width:  60%;
     margin-left: 20%;
   }
-form {
+  #sign-form{
+    background-image: url(../img/hands_desktop.jpg);
+
+  }
+  form {
     width: 40%;
     margin: 2em 20% 0.5em 30%;
   }
-#submit {
+  #submit {
     width: 30%;
   }  
 }
