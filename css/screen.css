@@ -13,7 +13,6 @@ html{
 /*code for the sign up page*/
 #sign-form{
   background-image: url(../img/hands.jpg);
-
 }
 
 #form-head {
@@ -78,6 +77,9 @@ input[type="checkbox"] {
   font-size: 1em; /* 16px */
 }
 /*end of the code for the sign up page*/
+
+
+
 
 /*Tablet screen*/
 @media screen and (min-width: 768px){
