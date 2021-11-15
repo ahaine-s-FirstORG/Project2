@@ -81,6 +81,10 @@ input[type="checkbox"] {
 /*Tablet screen*/
 @media screen and (min-width: 768px){
   /* changes for sign up page */
+  #sign-form{
+    background-image: url(../img/hands_tablet.jpg);
+
+  }
   form {
     width: 60%;
     margin-left: 18%;
